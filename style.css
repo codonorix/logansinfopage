@@ -1,0 +1,152 @@
+body {
+    background-color: #1f1f1f;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.top-portion {
+    background-image: url('images/d2b7m7v-6f04f2da-dd8e-4783-b801-d7b0137dfdff-529542390.png');
+}
+
+#introLogan {
+    margin-top: 140px;
+    background-color: rgba(211, 0, 169, 0.7);
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.margin-left {
+    margin-left: 40px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.info-text {
+    color: #d300a9;
+    font-weight: bold;
+}
+
+p {
+    font-size: large;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    width: 10%;
+    /*transition: width 2s, height 4s;*/
+
+}
+
+h2 {
+    margin-top: 140px;
+    background-color: rgba(211, 0, 169, 0.7);
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.about-me-text {
+    margin-right: 150px;
+    text-align: justify;
+}
+
+#fun-facts {
+    border-bottom: #d300a9 solid 1px;
+}
+
+.fun-fact-point {
+    font-size: x-large;
+}
+
+.fun-fact-point img{
+    width: 5%;
+    height: auto;
+}
+
+.h3-underline {
+    text-align: center;
+    border-bottom: #d300a9 solid 1px;
+    margin-right: 11%;
+    margin-left: 11%;
+}
+
+.skills-one {
+    background: rgba(159, 3, 171, 0.25);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    text-align: center;
+    height: 100%;
+    padding-top: 15px;
+    transition: .2s;
+    cursor: default;
+
+}
+
+.skills-one img {
+    width: 50%;
+}
+
+.skills-one:hover {
+    transform: scale(1.2);
+}
+
+.skills-two {
+    background: rgba(6, 202, 246, 0.25);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    text-align: center;
+    height: 100%;
+    padding-top: 15px;
+    transition: .2s;
+    cursor: default;
+}
+
+.skills-two img {
+    width: 50%;
+}
+
+.skills-two:hover {
+    transform: scale(1.2);
+}
+
+.select-project {
+    font-size: xxx-large;
+    cursor: pointer;
+    text-align: center;
+}
+
+.select-project:hover {
+    box-shadow: #d300a9 8px 0px 8px 0px;
+}
+
+#menu p{
+    background-color: rgba(211, 0, 169, 0.7);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#menu p:hover{
+    background-color: rgba(211, 0, 169, 0.93);
+    border-radius: 2px 15px 2px 15px;
+    text-align: center;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#project-one {
+    background-image: url("images/d2b7m7v-6f04f2da-dd8e-4783-b801-d7b0137dfdff-529542390.png");
+    height: 100%;
+}
